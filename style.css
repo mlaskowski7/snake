@@ -46,11 +46,11 @@ body{
 }
 
 .board .food{
-    background-color: #ff003d;
+    background-color: lightgreen;
 }
 
 .board .head{
-    background-color: #7F2A68;
+    background-color: red;
 }
 
 .controls{
