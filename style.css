@@ -10,11 +10,37 @@
 
 body{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background-color:#7F2A68;
 }
+
+.title-container{
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.portfolio-button{
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #522B72;
+}
+.portfolio-button:hover{
+    filter: brightness(0.8);
+}
+.portfolio-button:active{
+    transform: scale(0.89);
+}
+a{
+    text-decoration: none;
+}
+
 
 .container{
     width: 65vmin;
